@@ -13,15 +13,15 @@
   </a>
 </p>
 
-<img src="headers/divider.svg" width="100%" alt="" />
+<img src="header/divider.svg" width="100%" alt="" />
 
-<img src="headers/header-working-on.svg" width="100%" alt="what I'm working on" />
+<img src="header/header-working-on.svg" width="100%" alt="what I'm working on" />
 
 - 🛰️ Building **e-commerce platforms** — Laravel backend + React frontend
 - 🖥️ Developing **company websites & admin CMS panels** for Cambodian clients
 - 🎓 Studying software engineering while shipping real client projects
 
-<img src="headers/header-tech-stack.svg" width="100%" alt="tech stack" />
+<img src="header/header-tech-stack.svg" width="100%" alt="tech stack" />
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=laravel,php,react,tailwind,postgres,js,html,css,git,vite&theme=dark" />
@@ -31,7 +31,7 @@
 **Frontend:** Blade · React + Vite · Tailwind CSS · Alpine.js
 **Deployment:** Render · Hostinger
 
-<img src="headers/header-featured-projects.svg" width="100%" alt="featured projects" />
+<img src="header/header-featured-projects.svg" width="100%" alt="featured projects" />
 
 | Project | Description | Stack |
 |---|---|---|
@@ -40,7 +40,7 @@
 | 🎵 Desktop Music Player | Cross-platform music player app | ![PyQt6](https://img.shields.io/badge/PyQt6-0d1117?style=flat-square&logo=python&logoColor=f97316) |
 | 🧑‍💻 [Personal Portfolio](https://portfolio-vichhika.onrender.com/) | My own sci-fi styled dev portfolio | ![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=f97316) ![Tailwind](https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=f97316) |
 
-<img src="headers/header-github-stats.svg" width="100%" alt="github stats" />
+<img src="header/header-github-stats.svg" width="100%" alt="github stats" />
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=COPYProgrammer168&show_icons=true&hide_border=true&count_private=true&title_color=f97316&icon_color=f97316&text_color=e5e7eb&bg_color=0d1117" width="48%"/>
@@ -51,19 +51,19 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=COPYProgrammer168&layout=compact&hide_border=true&title_color=f97316&text_color=e5e7eb&bg_color=0d1117" width="60%"/>
 </div>
 
-<img src="headers/header-contribution-snake.svg" width="100%" alt="contribution snake" />
+<img src="header/header-contribution-snake.svg" width="100%" alt="contribution snake" />
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/COPYProgrammer168/COPYProgrammer168/output/github-contribution-grid-snake.svg" />
 </div>
 
-<img src="headers/header-reach-me.svg" width="100%" alt="reach me" />
+<img src="header/header-reach-me.svg" width="100%" alt="reach me" />
 
 <p align="left">
   <a href="https://t.me/YOUR_TELEGRAM"><img src="https://img.shields.io/badge/TELEGRAM-f97316?style=for-the-badge&logo=telegram&logoColor=000000" /></a>
   <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/EMAIL-fbbf24?style=for-the-badge&logo=gmail&logoColor=000000" /></a>
 </p>
 
-<img src="headers/divider.svg" width="100%" alt="" />
+<img src="header/divider.svg" width="100%" alt="" />
 
 <p align="center"><code>&gt; fun_fact: Laravel by day, React by night_</code></p>

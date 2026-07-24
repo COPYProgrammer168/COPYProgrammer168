@@ -1,0 +1,90 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="80%">
+      <stop offset="0%" stop-color="#1a1006"/>
+      <stop offset="55%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#f97316" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f97316" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGlow)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle cx="600" cy="150" r="280" fill="url(#coreGlow)"/>
+
+  <g opacity="0.45">
+    <ellipse cx="600" cy="150" rx="340" ry="95" fill="none" stroke="#fbbf24" stroke-width="1.2">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 150" to="360 600 150" dur="20s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="600" cy="150" rx="240" ry="155" fill="none" stroke="#f97316" stroke-width="1">
+      <animateTransform attributeName="transform" type="rotate" from="360 600 150" to="0 600 150" dur="26s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <g fill="#f97316">
+    <circle cx="120" cy="70" r="2.5"><animate attributeName="cy" values="70;240;70" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="240" r="2"><animate attributeName="cy" values="240;60;240" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="60" r="2.5"><animate attributeName="cy" values="60;250;60" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="220" r="2"><animate attributeName="cy" values="220;50;220" dur="6.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <g fill="#fbbf24">
+    <circle cx="180" cy="170" r="2"><animate attributeName="cy" values="170;40;170" dur="10s" repeatCount="indefinite"/></circle>
+    <circle cx="1020" cy="150" r="2.5"><animate attributeName="cy" values="150;270;150" dur="7.5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <rect x="6" y="6" width="1188" height="288" fill="none" stroke="#f97316" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="opacity" values="0.25;0.8;0.25" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <g stroke="#fbbf24" stroke-width="3" fill="none" opacity="0.85">
+    <path d="M20,20 L20,50 M20,20 L50,20"/>
+    <path d="M1180,20 L1180,50 M1180,20 L1150,20"/>
+    <path d="M20,280 L20,250 M20,280 L50,280"/>
+    <path d="M1180,280 L1180,250 M1180,280 L1150,280"/>
+  </g>
+
+  <rect x="0" y="-80" width="1200" height="80" fill="url(#scanGrad)">
+    <animate attributeName="y" values="-80;300" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="95" font-family="'Courier New', Consolas, monospace" font-size="18"
+        fill="#9ca3af" text-anchor="middle" letter-spacing="3">
+    &gt; HELLO, THIS IS
+  </text>
+
+  <g text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-weight="bold" font-size="58">
+    <text x="600" y="165" fill="#f97316" opacity="0.8" filter="url(#glow)">COPYProgrammer168</text>
+    <text x="600" y="165" fill="#fff7ed">COPYProgrammer168
+      <animate attributeName="opacity" values="1;0.93;1;1;0.88;1" dur="3.4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="600" y="215" font-family="'Courier New', Consolas, monospace" font-size="24"
+        fill="#fbbf24" text-anchor="middle" letter-spacing="3">
+    &gt; SOFTWARE_DEVELOPER :: CAMBODIA<tspan fill="#f97316">_</tspan>
+    <animate attributeName="opacity" values="1;1;1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="600" y="252" font-family="'Courier New', Consolas, monospace" font-size="18"
+        fill="#9ca3af" text-anchor="middle" letter-spacing="2">
+    LARAVEL + REACT // SYSTEM_ONLINE
+  </text>
+</svg>

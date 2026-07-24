@@ -1,0 +1,60 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="60%" stop-color="#040810"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#00fff5" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00fff5" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00fff5" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#00fff5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bgGlow)"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+
+  <!-- pulsing outer frame -->
+  <rect x="6" y="6" width="1188" height="268" fill="none" stroke="#00fff5" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="opacity" values="0.25;0.8;0.25" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- corner HUD brackets -->
+  <g stroke="#ff00ea" stroke-width="3" fill="none" opacity="0.85">
+    <path d="M20,20 L20,50 M20,20 L50,20"/>
+    <path d="M1180,20 L1180,50 M1180,20 L1150,20"/>
+    <path d="M20,260 L20,230 M20,260 L50,260"/>
+    <path d="M1180,260 L1180,230 M1180,260 L1150,260"/>
+  </g>
+
+  <!-- scanline sweep -->
+  <rect x="0" y="-80" width="1200" height="80" fill="url(#scanGrad)">
+    <animate attributeName="y" values="-80;280" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- RGB glitch title -->
+  <g font-family="'Courier New', Consolas, monospace" font-weight="bold" font-size="60" text-anchor="middle">
+    <text x="604" y="140" fill="#ff003c" opacity="0.65">COPYProgrammer168
+      <animate attributeName="x" values="604;598;606;600;604" dur="2.2s" repeatCount="indefinite"/>
+    </text>
+    <text x="596" y="140" fill="#00fff5" opacity="0.65">COPYProgrammer168
+      <animate attributeName="x" values="596;602;594;600;596" dur="2.2s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="140" fill="#f5f9ff">COPYProgrammer168</text>
+  </g>
+
+  <!-- terminal subtitle -->
+  <text x="600" y="190" font-family="'Courier New', Consolas, monospace" font-size="22"
+        fill="#9d4dff" text-anchor="middle" letter-spacing="4">
+    &gt; SOFTWARE_DEVELOPER :: CAMBODIA
+  </text>
+  <text x="600" y="222" font-family="'Courier New', Consolas, monospace" font-size="20"
+        fill="#00fff5" text-anchor="middle" letter-spacing="3">
+    LARAVEL + REACT // SYSTEM_ONLINE_
+    <animate attributeName="opacity" values="1;1;0.15;1;1" dur="1.6s" repeatCount="indefinite"/>
+  </text>
+</svg>
